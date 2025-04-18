@@ -85,7 +85,7 @@ namespace Calculadora_WsForm
             }
             catch
             {
-                MessageBox.Show("Necessário digitar um número para a operação.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("NecessÃ¡rio digitar um nÃºmero para a operaÃ§Ã£o.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
         }
@@ -100,7 +100,7 @@ namespace Calculadora_WsForm
             }
             catch
             {
-                MessageBox.Show("Necessário digitar um número para a operação.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("NecessÃ¡rio digitar um nÃºmero para a operaÃ§Ã£o.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
@@ -114,7 +114,7 @@ namespace Calculadora_WsForm
             }
             catch
             {
-                MessageBox.Show("Necessário digitar um número para a operação.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("NecessÃ¡rio digitar um nÃºmero para a operaÃ§Ã£o.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
@@ -126,7 +126,7 @@ namespace Calculadora_WsForm
                 valor1 = System.Convert.ToDecimal(resultado.Text);
                 resultado.Text = "";
             }
-            catch { MessageBox.Show("Necessário digitar um número para a operação.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation); }
+            catch { MessageBox.Show("NecessÃ¡rio digitar um nÃºmero para a operaÃ§Ã£o.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation); }
         }
 
 
@@ -176,7 +176,7 @@ namespace Calculadora_WsForm
         {
             valor1 = System.Convert.ToDecimal(resultado.Text);
             valor1 /= 100;
-            resultado.Text = System.Convert.ToString(valor1 + "%");
+            resultado.Text = System.Convert.ToString(valor1);
         }
 
         private void button12_Click(object sender, EventArgs e)
